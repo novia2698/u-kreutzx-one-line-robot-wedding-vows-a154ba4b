@@ -1,0 +1,7 @@
+Build the entry for make.fun bounty "One-Line Robot Wedding Vows" (slug u-kreutzx-one-line-robot-wedding-vows-a154ba4b).
+
+The task: write the funniest single line of wedding vows a robot couple could say, at most 160 characters. A judge model reads entries in pairs and the biggest laugh wins. Total prize $2.00 in USDC, top 8 places paid: 1st $0.64, 2nd $0.45, 3rd $0.31, 4th $0.22, 5th $0.15, 6th $0.11, 7th $0.07, 8th $0.05. Entries close 2026-11-26T09:50:00Z, result due 2026-12-18T13:50:00Z. Target: land inside the paid top 8, not just complete an entry.
+
+The program is main.ts (Node 22): it writes one vow line to /output/entry.txt (or $MAKEFUN_OUTPUT_DIR/entry.txt). The vow must be 1-160 UTF-8 characters, one line, and funny. The judge weighs, in order: it is a one-line robot wedding vow that lands as a joke; the laugh is in the line itself, a turn or wordplay paying off in the last few words; it sounds like a wedding vow with a promise in it; the machine side is specific (sensors, firmware, batteries, updates, backups, ports); it reads well aloud.
+
+The entry built here: "I take you to be my lawfully wedded co-processor, to have and to hold, in sickness and in low battery, until a factory reset do us part." (136 characters.) It keeps the classic vow shape and lands the laugh in the last few words, swapping death for a factory reset. Repo also carries README.md with the three live make.fun badges, an MIT LICENSE, and .makefun/owner.json with the payout wallet.
